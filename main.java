@@ -21,7 +21,7 @@ public class Main {
 			
 			boolean checker = false;
 			for(int i = 0; i < s.length(); i++) {
-				// check if the 0 or 5 digit in the given number
+				// check if there exist a '0' or '5' digit in the given number
 				if(s.charAt(i) == '0' || s.charAt(i) == '5') {
 					checker = true;
 					break;
